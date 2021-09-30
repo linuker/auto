@@ -1,0 +1,38 @@
+{
+  "info": {
+    "_postman_id": "30737dd3-9b33-4838-be0a-6de22062ce71",
+    "name": "test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "testAPI",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "12d31e91-a938-473e-81b8-1edc0d8e0ad2",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "//edit"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "id": "e6f55cec-2c36-4a30-b3e3-1761cf179e42",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "https://www.daum.net"
+      },
+      "response": []
+    }
+  ]
+}
