@@ -17,11 +17,8 @@
               "    pm.response.to.have.status(200);",
               "});",
               "",
-              "//edit",
-              "",
               "pm.environment.get(\"variable_key\");",
-              "",
-              "//aaaa"
+              ""
             ],
             "type": "text/javascript"
           }
