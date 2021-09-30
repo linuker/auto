@@ -17,7 +17,10 @@
               "    pm.response.to.have.status(200);",
               "});",
               "",
-              "//edit"
+              "//edit",
+              "",
+              "pm.environment.get(\"variable_key\");",
+              ""
             ],
             "type": "text/javascript"
           }
