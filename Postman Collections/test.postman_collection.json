@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "30737dd3-9b33-4838-be0a-6de22062ce71",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "testAPI",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.daum.net",
+					"protocol": "https",
+					"host": [
+						"www",
+						"daum",
+						"net"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
